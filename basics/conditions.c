@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 int main(){
 
@@ -43,6 +44,22 @@ int main(){
         default:
             printf("Please enter a menu selection");
     }
+
+
+    //Ternary
+
+    //Shorthand if else statements
+    //(condition) ? value_if_true : value_if_false;
+    int x = 5;
+    int y = 6;
+    int max = (x > y) ? x : y;
+
+    printf("\n%d", max);
+
+    bool isActive = true;
+
+    printf("\n%s", (isActive) ? "Active" : "Inactive");
+
 
     return 0;
 }

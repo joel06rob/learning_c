@@ -39,5 +39,8 @@ int main(){
     printf("%s\n", names[1]);
     printf("%s\n", names[2]);
 
+
+    //** NOTE: A MORE FLEXIBLE WAY TO STORE STRINGS IS VIA POINTERS - char *names[] = {"Alice", "Bob", "Charlie"} SEEN AS IT AVOIDS WASTING SPACE AS SOME STRINGS HAVE DIFFERENTE LENGTHS 
+
     return 0;
 }
