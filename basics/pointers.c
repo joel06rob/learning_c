@@ -4,7 +4,7 @@ void birthday(int *age);
 
 int main(){
 
-    //pointer - variable that stores the memore address of another variable.
+    //pointer - variable that stores the memory address of another variable.
     //helps avoid wasting memory by allowing you to pass the address of a large data structure instead of copying the entire data.
 
     int age = 20;
